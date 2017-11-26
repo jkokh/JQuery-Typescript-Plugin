@@ -7,7 +7,7 @@ import {I} from '../plugin/Interfaces';
 let node = <I.IJQuery>$('#node');
 
 node.ItemsList({
-    name: 'Evgeny',
+    name: 'Username',
     placeholder: 'Add your todo',
     items: [
         'one', 'two', 'three'
