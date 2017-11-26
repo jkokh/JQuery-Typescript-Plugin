@@ -3,6 +3,18 @@ Boilerplate for JQuery plugin with typescript and sass inside. Simple demo TODO 
 
 Demo page: http://icatalog.ru/demo/index.html
 
+## How to use
+Include JQuery library into your web page, include files from */dist* folder.
+```
+$('#element_id').ItemsList({
+    name: 'Username',
+    placeholder: 'Add your todo',
+    items: [
+        'one', 'two', 'three'
+    ]
+});
+```
+
 ## Installation
 Clone or download this repository.
 
