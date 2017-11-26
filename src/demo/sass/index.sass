@@ -1,0 +1,29 @@
+$inputHeight: 25px
+
+body
+  background-color: whitesmoke
+  font-family: Arial, serif
+
+textarea, input, button
+  outline: none
+
+button, input[type="text"]
+  min-height: $inputHeight
+  line-height: $inputHeight
+  border-radius: 0
+  font-size: 13px
+  font-weight: normal
+
+button
+  color: white
+  background-color: darkcyan
+  border: none
+  cursor: pointer
+  &[disabled]
+    background-color: silver
+
+input[type="text"]
+  border: 1px solid silver
+  padding-left: 10px
+  padding-right: 10px
+  box-sizing: border-box
